@@ -1,7 +1,7 @@
 # Complete Vagrant and RKE2 Setup Instructions
 
-
 🛠️ Tech Stack
+
 RKE2 (Rancher Kubernetes Engine v2) – Lightweight, secure Kubernetes distribution
 VMware Fusion / VirtualBox – Virtual machine hypervisor for running Linux VMs on macOS/Windows
 Ubuntu 22.04 LTS – VM operating system (minimal install)
@@ -10,7 +10,7 @@ Shell Script / Ansible – Cluster bootstrapping and configuration
 Calico – CNI plugin for Kubernetes networking
 NFS / Local Path Provisioner – For persistent volume provisioning
 K9s – Terminal UI to interact with Kubernetes cluster
-Helm / Kustomize – Kubernetes manifest management
+Helm / Kustomize – Kubernetes manifest management=
 Traefik / NGINX Ingress Controller – Ingress management
 Longhorn (Optional) – Cloud-native distributed block storage
 Rancher (Optional) – UI-based Kubernetes cluster manager
