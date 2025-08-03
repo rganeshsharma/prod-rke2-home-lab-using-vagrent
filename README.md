@@ -7,6 +7,7 @@ Deploy a Production ready RKE2 on your Home Lab (Windows, Linux or Mac) using Va
 - RKE2 (Rancher Kubernetes Engine v2) – Lightweight, secure Kubernetes distribution
 - VMware Fusion / VirtualBox – Virtual machine hypervisor for running Linux VMs on macOS/Windows
 - Ubuntu 22.04 LTS – VM operating system (minimal install)
+- Ubuntu 24.04 LTS - use only config.vm.box = "bento/ubuntu-24.04" on MacBook
 - Vagrant – VM provisioning and automation
 - Shell Script / Ansible – Cluster bootstrapping and configuration
 - Calico – CNI plugin for Kubernetes networking
