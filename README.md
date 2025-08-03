@@ -1,19 +1,21 @@
-# Complete Vagrant and RKE2 Setup Instructions
+# Complete PROD Ready RKE2 Setup using Vagrant Automation
+ 
+## 📂 Project Overview
+Deploy a Production ready RKE2 on your Home Lab (Windows, Linux or Mac) using Vagrant
 
-🛠️ Tech Stack
-
-RKE2 (Rancher Kubernetes Engine v2) – Lightweight, secure Kubernetes distribution
-VMware Fusion / VirtualBox – Virtual machine hypervisor for running Linux VMs on macOS/Windows
-Ubuntu 22.04 LTS – VM operating system (minimal install)
-Vagrant – VM provisioning and automation
-Shell Script / Ansible – Cluster bootstrapping and configuration
-Calico – CNI plugin for Kubernetes networking
-NFS / Local Path Provisioner – For persistent volume provisioning
-K9s – Terminal UI to interact with Kubernetes cluster
-Helm / Kustomize – Kubernetes manifest management=
-Traefik / NGINX Ingress Controller – Ingress management
-Longhorn (Optional) – Cloud-native distributed block storage
-Rancher (Optional) – UI-based Kubernetes cluster manager
+## 🛠️ Tech Stack
+- RKE2 (Rancher Kubernetes Engine v2) – Lightweight, secure Kubernetes distribution
+- VMware Fusion / VirtualBox – Virtual machine hypervisor for running Linux VMs on macOS/Windows
+- Ubuntu 22.04 LTS – VM operating system (minimal install)
+- Vagrant – VM provisioning and automation
+- Shell Script / Ansible – Cluster bootstrapping and configuration
+- Calico – CNI plugin for Kubernetes networking
+- NFS / Local Path Provisioner – For persistent volume provisioning
+- K9s – Terminal UI to interact with Kubernetes cluster
+- Helm / Kustomize – Kubernetes manifest management
+- Traefik / NGINX Ingress Controller – Ingress management
+- Longhorn (Optional) – Cloud-native distributed block storage
+- Rancher (Optional) – UI-based Kubernetes cluster manager 
 
 
 
